@@ -64,6 +64,7 @@ function startVocabulary(words,kind){
  // Un brouillon interrompu n'est jamais écrasé sans confirmation.
  if(state.activeVocab&&!confirm('Une séance est en cours. La remplacer ?'))return;
  const ids=words.map(w=>w.id);
+ const initialTotal=ids.length;
 state.activeVocab={
   kind,
   phase:kind==='new'?'discover':'quiz',
