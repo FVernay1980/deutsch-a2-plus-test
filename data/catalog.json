@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "catalog_version": "1.0.0",
+  "language": "de",
+  "translation_language": "fr",
+  "target_levels": ["A2", "B1", "B2"],
+  "daily_goal": {
+    "total": 10,
+    "everyday": 6,
+    "professional": 4
+  },
+  "vocabulary": {
+    "file": "vocabulary.json",
+    "version": "1.0.0",
+    "expected_count": 100
+  },
+  "update_policy": {
+    "mode": "automatic",
+    "check_interval_hours": 24
+  }
+}
