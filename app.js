@@ -190,9 +190,9 @@ function checkVocabulary(){
  // Une répétition supplémentaire ne modifie pas
 // le calendrier de révision ni le score initial.
 if(s.repeating){
-  s.answered={ok};
-  save();
-  displayVocabularyFeedback(s.answered,w,q);
+  s.answered={ok,given:selected};
+save();
+displayVocabularyFeedback(s.answered,w,q);
   return;
 }
  const r=record(w.id),previous=r.interval||0;
