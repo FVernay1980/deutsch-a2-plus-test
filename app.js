@@ -191,7 +191,15 @@ const capitalizationWarning=
  feedback.innerHTML=`<div class="feedback ${result.ok?'':'bad'}"><strong>${result.ok?'✓ Richtig !':'À revoir'}</strong><p>Bonne réponse : <strong>${escapeHTML(q.answer)}</strong></p><p>${escapeHTML(w.example_de)}</p><p>${escapeHTML(w.example_fr)}</p>${capitalizationWarning}</div>`;
  document.querySelectorAll('.option').forEach(b=>b.disabled=true);
  const input=document.getElementById('typed');if(input)input.disabled=true;
- const btn=document.getElementById('check');btn.textContent=state.activeVocab.pos===state.activeVocab.order.length-1?'Terminer':'Continuer';btn.disabled=false;
+ const btn=document.getElementById('check');
+const s=state.activeVocab;
+
+const isLastQuestion=
+  s.pos===s.order.length-1 &&
+  (s.repeating || !s.repeatIds?.length);
+
+btn.textContent=isLastQuestion?'Terminer':'Continuer';
+btn.disabled=false;
 }
 function checkVocabulary(){
  const s=state.activeVocab;if(!s||s.phase!=='quiz'||s.answered||!selected.trim())return;
