@@ -138,9 +138,15 @@ function showVocabulary(){
   screen.innerHTML=`<div class="card"><span class="tag">Découverte · ${s.pos+1}/${words.length} · ${w.category==='professional'?'Professionnel':'Quotidien'}</span><div class="progress"><div class="fill" style="width:${100*s.pos/words.length}%"></div></div><h2>${escapeHTML(w.word)}</h2><p><strong>${escapeHTML(w.translation)}</strong></p><div class="sentence">${escapeHTML(w.example_de)}</div><p class="muted">${escapeHTML(w.example_fr)}</p><button class="secondary" id="speak">🔊 Écouter la phrase</button><p class="muted small">Sur iPhone, désactive le mode silencieux si nécessaire.</p><button class="primary" id="nextVocab">${s.pos===words.length-1?'Terminer la découverte':'Mot suivant'}</button></div>`;
   return;
  }
- if(s.pos>=s.order.length){
-  const result=`${s.score} / ${s.order.length}`;
-  state.sessions.push({date:new Date().toISOString(),mode:s.kind==='new'?'Évaluation vocabulaire':'Révisions vocabulaire',score:s.score,total:s.order.length});
+if(s.pos>=s.order.length){
+  const total=s.initialTotal||s.ids.length;
+  const result=`${s.score} / ${total}`;
+  state.sessions.push({
+    date:new Date().toISOString(),
+    mode:s.kind==='new'?'Évaluation vocabulaire':'Révisions vocabulaire',
+    score:s.score,
+    total
+  });
   state.activeVocab=null;save();
   screen.innerHTML=`<div class="card"><span class="tag">Séance terminée</span><h2>Résultat</h2><div class="stat">${result}</div><p class="muted">Les mots seront reproposés lors des prochaines révisions.</p><button class="primary" id="back">Retour à l’accueil</button></div>`;
   return;
