@@ -64,7 +64,17 @@ function startVocabulary(words,kind){
  // Un brouillon interrompu n'est jamais écrasé sans confirmation.
  if(state.activeVocab&&!confirm('Une séance est en cours. La remplacer ?'))return;
  const ids=words.map(w=>w.id);
- state.activeVocab={kind,phase:kind==='new'?'discover':'quiz',ids,order:shuffle(ids),pos:0,score:0,answered:null};
+state.activeVocab={
+  kind,
+  phase:kind==='new'?'discover':'quiz',
+  ids,
+  order:shuffle(ids),
+  pos:0,
+  score:0,
+  answered:null,
+  repeatIds:[],
+  repeating:false
+};
  if(kind==='new')words.forEach(markDiscovered);
  save();showVocabulary();
 }
