@@ -117,13 +117,23 @@ function acceptGerman(input,word){
   return given===answer;
 }
 function vocabQuestion(w,index,kind){
- // Une question sur deux est une production en allemand, les autres testent la compréhension.
- const reverse=kind==='review'||index%2===0;
- return reverse?{
-  prompt:'Écris le mot ou l’expression en allemand',clue:w.translation,
-  type:'input',answer:w.word,audio:null
- }:{prompt:'Que signifie ce mot en français ?',clue:w.word,
-  type:'choice',answer:w.translation,audio:w.word};
+  if(kind==='review'){
+    return {
+      prompt:'Écris le mot ou l’expression en allemand',
+      clue:w.translation,
+      type:'input',
+      answer:w.word,
+      audio:null
+    };
+  }
+
+  return {
+    prompt:'Que signifie ce mot en français ?',
+    clue:w.word,
+    type:'choice',
+    answer:w.translation,
+    audio:w.word
+  };
 }
 function choiceOptions(w){
  const others=shuffle(vocabulary.filter(x=>x.id!==w.id&&x.category===w.category&&norm(x.translation)!==norm(w.translation)));
