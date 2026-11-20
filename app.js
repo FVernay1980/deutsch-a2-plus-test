@@ -39,7 +39,22 @@ function todaysWords(){
  return [...remaining.filter(w=>w.category==='everyday').sort(dayOrder).slice(0,dailyLeft),
   ...remaining.filter(w=>w.category==='professional').sort(dayOrder).slice(0,proLeft)];
 }
-function dueWords(){return vocabulary.filter(w=>{const r=record(w.id);return r.seen&&r.due&&r.due<=today();});}
+function dueWords(){
+  return vocabulary
+    .filter(w=>{
+      const r=record(w.id);
+      return r.seen && r.due && r.due<=today();
+    })
+    .sort((a,b)=>{
+      const dateA=record(a.id).due;
+      const dateB=record(b.id).due;
+      return dateA.localeCompare(dateB);
+    });
+}
+
+function reviewWords(){
+  return dueWords().slice(0,10);
+}
 function vocabById(id){return vocabulary.find(w=>w.id===id);}
 function activeWords(){return (state.activeVocab?.ids||[]).map(vocabById).filter(Boolean);}
 function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
