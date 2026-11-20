@@ -74,7 +74,8 @@ state.activeVocab={
   score:0,
   answered:null,
   repeatIds:[],
-  repeating:false
+repeating:false,
+initialTotal
 };
  if(kind==='new')words.forEach(markDiscovered);
  save();showVocabulary();
