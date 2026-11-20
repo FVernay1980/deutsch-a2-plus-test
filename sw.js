@@ -1,5 +1,5 @@
 // Deutsch A2+ — service worker pour le dépôt de TEST uniquement.
-const CACHE = 'deutsch-a2-plus-test-v021-1';
+const CACHE = 'deutsch-a2-plus-test-v023-1';
 const CACHE_PREFIX = 'deutsch-a2-plus-test-';
 const BASE = new URL('./', self.location.href);
 const ASSETS = [
