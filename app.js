@@ -83,8 +83,26 @@ function finishDiscovery(){
  s.phase='quiz';s.pos=0;s.answered=null;save();showVocabulary();
 }
 function nextVocabulary(){
- const s=state.activeVocab;if(!s)return;
- s.pos++;s.answered=null;save();showVocabulary();
+  const s=state.activeVocab;
+  if(!s)return;
+
+  s.pos++;
+  s.answered=null;
+
+  // À la fin des questions normales, ajouter une seule
+  // répétition pour chaque mot incorrect.
+  if(
+    s.pos>=s.order.length &&
+    !s.repeating &&
+    Array.isArray(s.repeatIds) &&
+    s.repeatIds.length>0
+  ){
+    s.order.push(...s.repeatIds);
+    s.repeating=true;
+  }
+
+  save();
+  showVocabulary();
 }
 function wordAnswer(w){return norm(w.word);}
 function acceptGerman(input,word){
