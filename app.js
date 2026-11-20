@@ -108,11 +108,13 @@ function nextVocabulary(){
 }
 function wordAnswer(w){return norm(w.word);}
 function acceptGerman(input,word){
- const answer=wordAnswer(word),given=norm(input);
- if(given===answer)return true;
- // Pour les noms avec article, accepter le nom seul lors du rappel actif.
- const stripped=answer.replace(/^(der|die|das)\s+/,'');
- return given===stripped;
+  const answer=wordAnswer(word);
+  const given=norm(input);
+
+  // L'article, l'orthographe et les caractères allemands
+  // doivent être corrects.
+  // Les majuscules et les espaces superflus sont tolérés.
+  return given===answer;
 }
 function vocabQuestion(w,index,kind){
  // Une question sur deux est une production en allemand, les autres testent la compréhension.
