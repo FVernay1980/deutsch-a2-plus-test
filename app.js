@@ -125,7 +125,7 @@ function checkVocabulary(){
  const w=vocabById(s.order[s.pos]),q=vocabQuestion(w,s.pos,s.kind);
  const ok=q.type==='input'?acceptGerman(selected,w):norm(selected)===norm(q.answer);
  const r=record(w.id),previous=r.interval||0;
- const interval=ok?(previous>=3?7:previous>=1?3:1):1;
+ const interval=ok?(previous>=14?30:previous>=7?14:previous>=3?7:previous>=1?3:1):1;
  const dueDate=new Date(today()+'T12:00:00');dueDate.setDate(dueDate.getDate()+interval);
  state.vocabulary[w.id]={...r,seen:true,firstSeen:r.firstSeen||today(),attempts:(r.attempts||0)+1,correct:(r.correct||0)+(ok?1:0),interval:ok?interval:0,due:`${dueDate.getFullYear()}-${String(dueDate.getMonth()+1).padStart(2,'0')}-${String(dueDate.getDate()).padStart(2,'0')}`};
  state.done++;if(ok){state.correct++;s.score++;}
