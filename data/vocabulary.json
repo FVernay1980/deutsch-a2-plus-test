@@ -1,0 +1,1674 @@
+{
+  "version": "1.0.0",
+  "language": "de",
+  "translation_language": "fr",
+  "target_level": "A2-B2",
+  "editorial_note": "Sélection initiale rédigée pour le projet. Les entrées ne sont pas encore vérifiées ou reliées aux sources externes Wiktionary/Kaikki et Tatoeba.",
+  "words": [
+    {
+      "id": "DAY-001",
+      "word": "die Entscheidung",
+      "translation": "la décision",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Das ist eine wichtige Entscheidung.",
+      "example_fr": "C’est une décision importante.",
+      "plural": "Entscheidungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-002",
+      "word": "entscheiden",
+      "translation": "décider",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir müssen heute entscheiden.",
+      "example_fr": "Nous devons décider aujourd’hui.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-003",
+      "word": "die Möglichkeit",
+      "translation": "la possibilité",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Es gibt noch eine Möglichkeit.",
+      "example_fr": "Il reste une possibilité.",
+      "plural": "Möglichkeiten",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-004",
+      "word": "trotzdem",
+      "translation": "quand même, malgré cela",
+      "type": "adverb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Es regnet, trotzdem gehen wir spazieren.",
+      "example_fr": "Il pleut, pourtant nous allons nous promener.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-005",
+      "word": "sich freuen",
+      "translation": "se réjouir",
+      "type": "verb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Ich freue mich auf das Wochenende.",
+      "example_fr": "Je me réjouis du week-end.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-006",
+      "word": "wahrscheinlich",
+      "translation": "probablement",
+      "type": "adverb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Er kommt wahrscheinlich später.",
+      "example_fr": "Il viendra probablement plus tard.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "PRO-001",
+      "word": "die Anlage",
+      "translation": "l’installation industrielle",
+      "type": "noun",
+      "level": "A2",
+      "category": "professional",
+      "example_de": "Die Anlage ist heute in Betrieb.",
+      "example_fr": "L’installation est en service aujourd’hui.",
+      "plural": "Anlagen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "PRO-002",
+      "word": "in Betrieb nehmen",
+      "translation": "mettre en service",
+      "type": "expression",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Wir nehmen die neue Anlage morgen in Betrieb.",
+      "example_fr": "Nous mettons la nouvelle installation en service demain.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "PRO-003",
+      "word": "die Steuerung",
+      "translation": "la commande, le système de contrôle",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Steuerung überwacht den Prozess.",
+      "example_fr": "Le système de contrôle surveille le procédé.",
+      "plural": "Steuerungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "PRO-004",
+      "word": "der Schaltschrank",
+      "translation": "l’armoire électrique",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Schaltschrank steht neben der Maschine.",
+      "example_fr": "L’armoire électrique se trouve à côté de la machine.",
+      "plural": "Schaltschränke",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 1
+    },
+    {
+      "id": "DAY-007",
+      "word": "der Termin",
+      "translation": "le rendez-vous",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Ich habe morgen einen Termin.",
+      "example_fr": "J’ai un rendez-vous demain.",
+      "plural": "Termine",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-008",
+      "word": "verschieben",
+      "translation": "reporter, déplacer",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Können wir den Termin verschieben?",
+      "example_fr": "Pouvons-nous reporter le rendez-vous ?",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-009",
+      "word": "erledigen",
+      "translation": "effectuer, régler",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich muss noch etwas erledigen.",
+      "example_fr": "Je dois encore régler quelque chose.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-010",
+      "word": "die Gewohnheit",
+      "translation": "l’habitude",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Das ist eine gute Gewohnheit.",
+      "example_fr": "C’est une bonne habitude.",
+      "plural": "Gewohnheiten",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-011",
+      "word": "unterwegs",
+      "translation": "en route, en déplacement",
+      "type": "adverb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Ich bin gerade unterwegs.",
+      "example_fr": "Je suis actuellement en déplacement.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-012",
+      "word": "die Richtung",
+      "translation": "la direction",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "In welche Richtung müssen wir gehen?",
+      "example_fr": "Dans quelle direction devons-nous aller ?",
+      "plural": "Richtungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "PRO-005",
+      "word": "der Förderer",
+      "translation": "le convoyeur",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Förderer transportiert das Material.",
+      "example_fr": "Le convoyeur transporte le matériau.",
+      "plural": "Förderer",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "PRO-006",
+      "word": "das Ventil",
+      "translation": "la vanne",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Das Ventil ist geschlossen.",
+      "example_fr": "La vanne est fermée.",
+      "plural": "Ventile",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "PRO-007",
+      "word": "der Antrieb",
+      "translation": "l’entraînement, la motorisation",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Antrieb läuft mit reduzierter Drehzahl.",
+      "example_fr": "L’entraînement fonctionne à vitesse réduite.",
+      "plural": "Antriebe",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "PRO-008",
+      "word": "die Drehzahl",
+      "translation": "la vitesse de rotation",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Drehzahl wird automatisch geregelt.",
+      "example_fr": "La vitesse de rotation est régulée automatiquement.",
+      "plural": "Drehzahlen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 2
+    },
+    {
+      "id": "DAY-013",
+      "word": "umsteigen",
+      "translation": "changer de transport",
+      "type": "verb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "In Ulm müssen wir umsteigen.",
+      "example_fr": "Nous devons changer de train à Ulm.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-014",
+      "word": "die Verspätung",
+      "translation": "le retard",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Der Zug hat zehn Minuten Verspätung.",
+      "example_fr": "Le train a dix minutes de retard.",
+      "plural": "Verspätungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-015",
+      "word": "erreichen",
+      "translation": "atteindre, joindre",
+      "type": "verb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Wir erreichen den Bahnhof um acht Uhr.",
+      "example_fr": "Nous arrivons à la gare à huit heures.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-016",
+      "word": "die Unterkunft",
+      "translation": "l’hébergement",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir suchen eine günstige Unterkunft.",
+      "example_fr": "Nous cherchons un hébergement abordable.",
+      "plural": "Unterkünfte",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-017",
+      "word": "die Quittung",
+      "translation": "le reçu",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Kann ich bitte eine Quittung bekommen?",
+      "example_fr": "Puis-je avoir un reçu, s’il vous plaît ?",
+      "plural": "Quittungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-018",
+      "word": "umtauschen",
+      "translation": "échanger (un article)",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich möchte diese Jacke umtauschen.",
+      "example_fr": "Je voudrais échanger cette veste.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "PRO-009",
+      "word": "der Sensor",
+      "translation": "le capteur",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Sensor erkennt die Position.",
+      "example_fr": "Le capteur détecte la position.",
+      "plural": "Sensoren",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "PRO-010",
+      "word": "der Sollwert",
+      "translation": "la consigne",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Sollwert beträgt 80 Grad.",
+      "example_fr": "La consigne est de 80 degrés.",
+      "plural": "Sollwerte",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "PRO-011",
+      "word": "der Istwert",
+      "translation": "la valeur réelle, la mesure",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Istwert liegt unter dem Sollwert.",
+      "example_fr": "La valeur mesurée est inférieure à la consigne.",
+      "plural": "Istwerte",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "PRO-012",
+      "word": "die Verriegelung",
+      "translation": "le verrouillage, l’interverrouillage",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Die Verriegelung verhindert den Start.",
+      "example_fr": "L’interverrouillage empêche le démarrage.",
+      "plural": "Verriegelungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 3
+    },
+    {
+      "id": "DAY-019",
+      "word": "die Auswahl",
+      "translation": "le choix, la sélection",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Die Auswahl ist hier sehr groß.",
+      "example_fr": "Le choix est très large ici.",
+      "plural": "Auswahlen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-020",
+      "word": "verfügbar",
+      "translation": "disponible",
+      "type": "adjective",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ist dieses Modell noch verfügbar?",
+      "example_fr": "Ce modèle est-il encore disponible ?",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-021",
+      "word": "die Rechnung",
+      "translation": "la facture, l’addition",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Könnte ich bitte die Rechnung haben?",
+      "example_fr": "Pourrais-je avoir l’addition, s’il vous plaît ?",
+      "plural": "Rechnungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-022",
+      "word": "sparen",
+      "translation": "économiser",
+      "type": "verb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Wir möchten diesen Monat Geld sparen.",
+      "example_fr": "Nous voulons économiser de l’argent ce mois-ci.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-023",
+      "word": "die Besprechung",
+      "translation": "la réunion",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Die Besprechung beginnt um neun Uhr.",
+      "example_fr": "La réunion commence à neuf heures.",
+      "plural": "Besprechungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-024",
+      "word": "zuständig",
+      "translation": "responsable de, compétent pour",
+      "type": "adjective",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wer ist für dieses Thema zuständig?",
+      "example_fr": "Qui est responsable de ce sujet ?",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "PRO-013",
+      "word": "die Charge",
+      "translation": "le lot de production",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die nächste Charge ist vorbereitet.",
+      "example_fr": "Le prochain lot est préparé.",
+      "plural": "Chargen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "PRO-014",
+      "word": "die Dosierung",
+      "translation": "le dosage",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Dosierung erfolgt automatisch.",
+      "example_fr": "Le dosage s’effectue automatiquement.",
+      "plural": "Dosierungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "PRO-015",
+      "word": "die Rezeptur",
+      "translation": "la formulation, la recette industrielle",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Rezeptur enthält fünf Rohstoffe.",
+      "example_fr": "La formulation contient cinq matières premières.",
+      "plural": "Rezepturen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "PRO-016",
+      "word": "der Durchsatz",
+      "translation": "le débit de production",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Der Durchsatz beträgt zwei Tonnen pro Stunde.",
+      "example_fr": "Le débit de production est de deux tonnes par heure.",
+      "plural": "Durchsätze",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 4
+    },
+    {
+      "id": "DAY-025",
+      "word": "die Aufgabe",
+      "translation": "la tâche",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Diese Aufgabe ist dringend.",
+      "example_fr": "Cette tâche est urgente.",
+      "plural": "Aufgaben",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-026",
+      "word": "die Rückmeldung",
+      "translation": "le retour, la réponse",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Danke für Ihre schnelle Rückmeldung.",
+      "example_fr": "Merci pour votre réponse rapide.",
+      "plural": "Rückmeldungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-027",
+      "word": "vereinbaren",
+      "translation": "convenir de, fixer",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir sollten einen Termin vereinbaren.",
+      "example_fr": "Nous devrions fixer un rendez-vous.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-028",
+      "word": "die Erfahrung",
+      "translation": "l’expérience",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Sie hat viel Erfahrung in diesem Bereich.",
+      "example_fr": "Elle a beaucoup d’expérience dans ce domaine.",
+      "plural": "Erfahrungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-029",
+      "word": "rechtzeitig",
+      "translation": "à temps",
+      "type": "adverb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Bitte komm rechtzeitig zum Treffen.",
+      "example_fr": "Merci d’arriver à temps à la rencontre.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-030",
+      "word": "der Zeitraum",
+      "translation": "la période",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "In diesem Zeitraum bin ich nicht da.",
+      "example_fr": "Je ne suis pas là pendant cette période.",
+      "plural": "Zeiträume",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "PRO-017",
+      "word": "die Wartung",
+      "translation": "la maintenance préventive, l’entretien",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Wartung ist für Montag geplant.",
+      "example_fr": "La maintenance est prévue lundi.",
+      "plural": "Wartungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "PRO-018",
+      "word": "die Störung",
+      "translation": "la panne, le dysfonctionnement",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Anlage hat eine Störung.",
+      "example_fr": "L’installation présente un dysfonctionnement.",
+      "plural": "Störungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "PRO-019",
+      "word": "beheben",
+      "translation": "remédier à, résoudre",
+      "type": "verb",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Techniker konnte die Störung beheben.",
+      "example_fr": "Le technicien a pu résoudre le dysfonctionnement.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "PRO-020",
+      "word": "das Ersatzteil",
+      "translation": "la pièce de rechange",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Wir brauchen ein neues Ersatzteil.",
+      "example_fr": "Nous avons besoin d’une nouvelle pièce de rechange.",
+      "plural": "Ersatzteile",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 5
+    },
+    {
+      "id": "DAY-031",
+      "word": "die Frist",
+      "translation": "le délai, la date limite",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Die Frist endet am Freitag.",
+      "example_fr": "Le délai expire vendredi.",
+      "plural": "Fristen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-032",
+      "word": "die Voraussetzung",
+      "translation": "la condition préalable",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Gute Deutschkenntnisse sind eine Voraussetzung.",
+      "example_fr": "De bonnes connaissances en allemand sont une condition préalable.",
+      "plural": "Voraussetzungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-033",
+      "word": "die Meinung",
+      "translation": "l’avis, l’opinion",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Was ist deine Meinung dazu?",
+      "example_fr": "Quel est ton avis à ce sujet ?",
+      "plural": "Meinungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-034",
+      "word": "einverstanden",
+      "translation": "d’accord",
+      "type": "adjective",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Ich bin mit dem Vorschlag einverstanden.",
+      "example_fr": "Je suis d’accord avec la proposition.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-035",
+      "word": "der Unterschied",
+      "translation": "la différence",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Was ist der Unterschied zwischen diesen Modellen?",
+      "example_fr": "Quelle est la différence entre ces modèles ?",
+      "plural": "Unterschiede",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-036",
+      "word": "sich wundern",
+      "translation": "s’étonner",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich wundere mich über diese Nachricht.",
+      "example_fr": "Je suis étonné par cette nouvelle.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "PRO-021",
+      "word": "die Schutzeinrichtung",
+      "translation": "le dispositif de protection",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Die Schutzeinrichtung muss geprüft werden.",
+      "example_fr": "Le dispositif de protection doit être contrôlé.",
+      "plural": "Schutzeinrichtungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "PRO-022",
+      "word": "die Freigabe",
+      "translation": "l’autorisation, la validation",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Ohne Freigabe darf die Maschine nicht starten.",
+      "example_fr": "Sans autorisation, la machine ne doit pas démarrer.",
+      "plural": "Freigaben",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "PRO-023",
+      "word": "der Not-Halt",
+      "translation": "l’arrêt d’urgence",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Not-Halt wurde betätigt.",
+      "example_fr": "L’arrêt d’urgence a été actionné.",
+      "plural": "Not-Halte",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "PRO-024",
+      "word": "die Gefährdung",
+      "translation": "le danger, le risque potentiel",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Vor dem Eingriff muss die Gefährdung bewertet werden.",
+      "example_fr": "Avant l’intervention, le danger doit être évalué.",
+      "plural": "Gefährdungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 6
+    },
+    {
+      "id": "DAY-037",
+      "word": "die Umgebung",
+      "translation": "les environs, l’environnement proche",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Die Umgebung ist sehr ruhig.",
+      "example_fr": "Les environs sont très calmes.",
+      "plural": "Umgebungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-038",
+      "word": "der Nachbar",
+      "translation": "le voisin",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Unser Nachbar ist sehr freundlich.",
+      "example_fr": "Notre voisin est très aimable.",
+      "plural": "Nachbarn",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-039",
+      "word": "die Heizung",
+      "translation": "le chauffage",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Die Heizung funktioniert nicht.",
+      "example_fr": "Le chauffage ne fonctionne pas.",
+      "plural": "Heizungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-040",
+      "word": "die Miete",
+      "translation": "le loyer",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Die Miete ist dieses Jahr gestiegen.",
+      "example_fr": "Le loyer a augmenté cette année.",
+      "plural": "Mieten",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-041",
+      "word": "der Müll",
+      "translation": "les déchets",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Wo kann ich den Müll entsorgen?",
+      "example_fr": "Où puis-je jeter les déchets?",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-042",
+      "word": "vermeiden",
+      "translation": "éviter",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir sollten unnötigen Müll vermeiden.",
+      "example_fr": "Nous devrions éviter les déchets inutiles.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "PRO-025",
+      "word": "der Drucksensor",
+      "translation": "le capteur de pression",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Drucksensor misst den Druck im Silo.",
+      "example_fr": "Le capteur de pression mesure la pression dans le silo.",
+      "plural": "Drucksensoren",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "PRO-026",
+      "word": "der Messbereich",
+      "translation": "la plage de mesure",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Der Messbereich reicht bis 500 Millibar.",
+      "example_fr": "La plage de mesure va jusqu’à 500 millibars.",
+      "plural": "Messbereiche",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "PRO-027",
+      "word": "die Abweichung",
+      "translation": "l’écart",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Abweichung ist größer als erwartet.",
+      "example_fr": "L’écart est plus important que prévu.",
+      "plural": "Abweichungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "PRO-028",
+      "word": "kalibrieren",
+      "translation": "étalonner",
+      "type": "verb",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Wir müssen den Sensor kalibrieren.",
+      "example_fr": "Nous devons étalonner le capteur.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 7
+    },
+    {
+      "id": "DAY-043",
+      "word": "mitteilen",
+      "translation": "communiquer, informer",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Bitte teilen Sie mir Ihre Entscheidung mit.",
+      "example_fr": "Veuillez me communiquer votre décision.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-044",
+      "word": "nachfragen",
+      "translation": "redemander, demander des précisions",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wenn etwas unklar ist, kannst du nachfragen.",
+      "example_fr": "Si quelque chose n’est pas clair, tu peux demander des précisions.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-045",
+      "word": "die Nachricht",
+      "translation": "le message, la nouvelle",
+      "type": "noun",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Ich habe deine Nachricht gelesen.",
+      "example_fr": "J’ai lu ton message.",
+      "plural": "Nachrichten",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-046",
+      "word": "erklären",
+      "translation": "expliquer",
+      "type": "verb",
+      "level": "A2",
+      "category": "everyday",
+      "example_de": "Kannst du mir das bitte erklären?",
+      "example_fr": "Peux-tu m’expliquer cela, s’il te plaît ?",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-047",
+      "word": "der Vorschlag",
+      "translation": "la proposition",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Dein Vorschlag klingt gut.",
+      "example_fr": "Ta proposition semble bonne.",
+      "plural": "Vorschläge",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-048",
+      "word": "die Gelegenheit",
+      "translation": "l’occasion",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich hatte keine Gelegenheit, mit ihm zu sprechen.",
+      "example_fr": "Je n’ai pas eu l’occasion de lui parler.",
+      "plural": "Gelegenheiten",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "PRO-029",
+      "word": "der Mischvorgang",
+      "translation": "le processus de mélange",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Der Mischvorgang dauert drei Minuten.",
+      "example_fr": "Le processus de mélange dure trois minutes.",
+      "plural": "Mischvorgänge",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "PRO-030",
+      "word": "die Zuführung",
+      "translation": "l’alimentation en matière",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Die Zuführung wird automatisch gestoppt.",
+      "example_fr": "L’alimentation en matière est arrêtée automatiquement.",
+      "plural": "Zuführungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "PRO-031",
+      "word": "der Füllstand",
+      "translation": "le niveau de remplissage",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Füllstand im Silo ist niedrig.",
+      "example_fr": "Le niveau de remplissage du silo est bas.",
+      "plural": "Füllstände",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "PRO-032",
+      "word": "entleeren",
+      "translation": "vider",
+      "type": "verb",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Der Behälter muss vollständig entleert werden.",
+      "example_fr": "La cuve doit être entièrement vidée.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 8
+    },
+    {
+      "id": "DAY-049",
+      "word": "sich kümmern um",
+      "translation": "s’occuper de",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich kümmere mich um die Reservierung.",
+      "example_fr": "Je m’occupe de la réservation.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-050",
+      "word": "auf jeden Fall",
+      "translation": "dans tous les cas, absolument",
+      "type": "expression",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich komme auf jeden Fall morgen.",
+      "example_fr": "Je viendrai demain dans tous les cas.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-051",
+      "word": "im Voraus",
+      "translation": "à l’avance",
+      "type": "expression",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Vielen Dank im Voraus.",
+      "example_fr": "Merci d’avance.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-052",
+      "word": "es kommt darauf an",
+      "translation": "cela dépend",
+      "type": "expression",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Es kommt darauf an, wie viel Zeit wir haben.",
+      "example_fr": "Cela dépend du temps dont nous disposons.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-053",
+      "word": "sowohl ... als auch",
+      "translation": "aussi bien ... que",
+      "type": "expression",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Sie spricht sowohl Deutsch als auch Französisch.",
+      "example_fr": "Elle parle aussi bien allemand que français.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-054",
+      "word": "stattdessen",
+      "translation": "à la place",
+      "type": "adverb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir fahren nicht mit dem Auto, sondern nehmen stattdessen den Zug.",
+      "example_fr": "Nous ne prenons pas la voiture, mais le train à la place.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "PRO-033",
+      "word": "die Fehlerursache",
+      "translation": "la cause du défaut",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Wir suchen die Fehlerursache.",
+      "example_fr": "Nous recherchons la cause du défaut.",
+      "plural": "Fehlerursachen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "PRO-034",
+      "word": "die Fehlermeldung",
+      "translation": "le message d’erreur",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Fehlermeldung erscheint auf dem Bildschirm.",
+      "example_fr": "Le message d’erreur apparaît à l’écran.",
+      "plural": "Fehlermeldungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "PRO-035",
+      "word": "zurücksetzen",
+      "translation": "réinitialiser",
+      "type": "verb",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Nach der Prüfung können wir den Alarm zurücksetzen.",
+      "example_fr": "Après le contrôle, nous pouvons réinitialiser l’alarme.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "PRO-036",
+      "word": "die Inbetriebnahme",
+      "translation": "la mise en service",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Die Inbetriebnahme beginnt nächste Woche.",
+      "example_fr": "La mise en service commence la semaine prochaine.",
+      "plural": "Inbetriebnahmen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 9
+    },
+    {
+      "id": "DAY-055",
+      "word": "der Vorteil",
+      "translation": "l’avantage",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Das hat einen großen Vorteil.",
+      "example_fr": "Cela présente un grand avantage.",
+      "plural": "Vorteile",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "DAY-056",
+      "word": "der Nachteil",
+      "translation": "l’inconvénient",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ein Nachteil ist der hohe Preis.",
+      "example_fr": "Un inconvénient est le prix élevé.",
+      "plural": "Nachteile",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "DAY-057",
+      "word": "sich gewöhnen an",
+      "translation": "s’habituer à",
+      "type": "verb",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Ich muss mich an den neuen Rhythmus gewöhnen.",
+      "example_fr": "Je dois m’habituer au nouveau rythme.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "DAY-058",
+      "word": "die Herausforderung",
+      "translation": "le défi",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Das ist eine interessante Herausforderung.",
+      "example_fr": "C’est un défi intéressant.",
+      "plural": "Herausforderungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "DAY-059",
+      "word": "zuverlässig",
+      "translation": "fiable",
+      "type": "adjective",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Er ist ein zuverlässiger Kollege.",
+      "example_fr": "C’est un collègue fiable.",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "DAY-060",
+      "word": "die Verbesserung",
+      "translation": "l’amélioration",
+      "type": "noun",
+      "level": "B1",
+      "category": "everyday",
+      "example_de": "Wir sehen eine deutliche Verbesserung.",
+      "example_fr": "Nous constatons une nette amélioration.",
+      "plural": "Verbesserungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "PRO-037",
+      "word": "die Anforderung",
+      "translation": "l’exigence",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Diese Anforderung ist noch nicht erfüllt.",
+      "example_fr": "Cette exigence n’est pas encore satisfaite.",
+      "plural": "Anforderungen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "PRO-038",
+      "word": "die Schnittstelle",
+      "translation": "l’interface",
+      "type": "noun",
+      "level": "B1",
+      "category": "professional",
+      "example_de": "Die Schnittstelle verbindet zwei Systeme.",
+      "example_fr": "L’interface relie deux systèmes.",
+      "plural": "Schnittstellen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "PRO-039",
+      "word": "die Rücksprache",
+      "translation": "la concertation, la consultation",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Vor der Änderung halten wir Rücksprache mit dem Kunden.",
+      "example_fr": "Avant la modification, nous consultons le client.",
+      "plural": "Rücksprachen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    },
+    {
+      "id": "PRO-040",
+      "word": "die Abnahme",
+      "translation": "la réception, l’acceptation technique",
+      "type": "noun",
+      "level": "B2",
+      "category": "professional",
+      "example_de": "Die Abnahme findet nach den Tests statt.",
+      "example_fr": "La réception technique a lieu après les essais.",
+      "plural": "Abnahmen",
+      "source": {
+        "kind": "editorial",
+        "reference": null,
+        "verified": false
+      },
+      "day": 10
+    }
+  ]
+}
