@@ -190,7 +190,7 @@ document.addEventListener('click',e=>{
  else if(t.id==='resumeVocab'){showVocabulary();}
  else if(t.id==='nextVocab'){const s=state.activeVocab;if(s){s.pos++;save();showVocabulary();}}
  else if(t.id==='beginQuiz'){finishDiscovery();}
- else if(t.id==='vocabReview'){startVocabulary(dueWords(),'review');}
+ else if(t.id==='vocabReview'){startVocabulary(reviewWords(),'review');}
  else if(t.id==='reviewStart'){start(allQuestions().filter(q=>state.mistakes[q.key]>0),'Révisions');}
  else if(t.id==='speak'){
   const s=state.activeVocab;
