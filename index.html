@@ -1,2 +1,14 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#155e49"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon.png"><title>Deutsch A2+</title><link rel="stylesheet" href="./style.css?v=022-blue"></head><body><main class="app"><header><div><h1>🇩🇪 Deutsch A2+</h1><div class="muted">Ton allemand, un peu chaque jour</div></div><span class="tag">A2 → B1</span></header><nav class="tabs"><button class="tab active" data-tab="learn">Apprendre</button><button class="tab" data-tab="review">Réviser</button><button class="tab" data-tab="progress">Progrès</button></nav><section id="screen"></section><footer>V0.2.2-dev · Données conservées sur cet appareil</footer></main><script src="./app.js?v=023-1" defer></script>
-
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#155e49"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon.png"><title>Deutsch A2+</title><link rel="stylesheet" href="./style.css?v=022-blue"></head><body><main class="app"><header><div><h1>🇩🇪 Deutsch A2+</h1><div class="muted">Ton allemand, un peu chaque jour</div></div><span class="tag">A2 → B1</span></header><nav class="tabs"><button class="tab active" data-tab="learn">Apprendre</button><button class="tab" data-tab="review">Réviser</button><button class="tab" data-tab="progress">Progrès</button></nav><section id="screen"></section><footer>V0.2.2-dev · Données conservées sur cet appareil</footer></main><script>
+window.addEventListener('load', function () {
+  setTimeout(function () {
+    const screen = document.getElementById('screen');
+    if (screen && !screen.innerHTML.trim()) {
+      screen.innerHTML =
+        '<p style="padding:16px;color:#b91c1c">' +
+        'Diagnostic TEST : le contenu JavaScript ne s’affiche pas.' +
+        '</p>';
+    }
+  }, 2000);
+});
+</script>
+<script src="./app.js?v=023-1" defer></script>
