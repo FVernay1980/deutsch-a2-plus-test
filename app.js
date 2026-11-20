@@ -168,6 +168,16 @@ if(s.pos>=s.order.length){
 function displayVocabularyFeedback(result,w,q){
  checked=true;
  const feedback=document.getElementById('feedback');if(!feedback)return;
+ // Signaler les différences de majuscules sans pénaliser.
+const capitalizationWarning=
+  result.ok &&
+  q.type==='input' &&
+  typeof result.given==='string' &&
+  result.given.trim().replace(/\s+/g,' ') !==
+    q.answer.trim().replace(/\s+/g,' ') &&
+  norm(result.given)===norm(q.answer)
+    ? '<p class="muted">💡 Attention aux majuscules en allemand. Vérifie l’orthographe affichée.</p>'
+    : '';
  feedback.innerHTML=`<div class="feedback ${result.ok?'':'bad'}"><strong>${result.ok?'✓ Richtig !':'À revoir'}</strong><p>Bonne réponse : <strong>${escapeHTML(q.answer)}</strong></p><p>${escapeHTML(w.example_de)}</p><p>${escapeHTML(w.example_fr)}</p></div>`;
  document.querySelectorAll('.option').forEach(b=>b.disabled=true);
  const input=document.getElementById('typed');if(input)input.disabled=true;
