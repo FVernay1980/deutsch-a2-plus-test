@@ -167,6 +167,14 @@ function checkVocabulary(){
  const s=state.activeVocab;if(!s||s.phase!=='quiz'||s.answered||!selected.trim())return;
  const w=vocabById(s.order[s.pos]),q=vocabQuestion(w,s.pos,s.kind);
  const ok=q.type==='input'?acceptGerman(selected,w):norm(selected)===norm(q.answer);
+ // Une répétition supplémentaire ne modifie pas
+// le calendrier de révision ni le score initial.
+if(s.repeating){
+  s.answered={ok};
+  save();
+  displayVocabularyFeedback(s.answered,w,q);
+  return;
+}
  const r=record(w.id),previous=r.interval||0;
  // Mémoriser les mots incorrects pour une répétition en fin de séance.
 if(!ok && !s.repeating){
