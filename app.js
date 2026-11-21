@@ -389,6 +389,14 @@ document.addEventListener('click',e=>{
  }
  else if(t.id==='back'){tab='learn';render();}
  else if(t.id==='exportProgress'){exportProgress();}
+   
+else if(t.id==='importProgress'){
+  document.getElementById('importProgressFile').click();
+}
+else if(t.id==='importProgressFile'){
+  return;
+}
+
  else if(t.id==='reset'){if(confirm('Effacer uniquement la progression de cette version de Deutsch A2+ ?')){state=emptyState();save();render();}}
 });
 document.addEventListener('input',e=>{if(e.target.id==='typed'){selected=e.target.value;document.getElementById('check').disabled=!selected.trim();}});
