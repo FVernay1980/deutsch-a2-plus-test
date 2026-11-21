@@ -406,12 +406,16 @@ else if(t.id==='reset'){
 });
 
 document.addEventListener('change', async e => {
-  if(e.target.id !== 'importProgressFile') return;
-
-  const file = e.target.files?.[0];
-  if(file) await importProgress(file);
-
-  e.target.value = '';
+  const input = e.target;
+  if(input.id !== 'importProgressFile') return;
+  const file = input.files && input.files[0];
+  if(!file) {
+    alert('Aucun fichier sélectionné.');
+    return;
+  }
+  alert('Fichier sélectionné : ' + file.name);
+  await importProgress(file);
+  input.value = '';
 });
 
 document.addEventListener('input',e=>{if(e.target.id==='typed'){selected=e.target.value;document.getElementById('check').disabled=!selected.trim();}});
