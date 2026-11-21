@@ -388,17 +388,32 @@ document.addEventListener('click',e=>{
   else if(checked){pos++;showQuestion();}else check();
  }
  else if(t.id==='back'){tab='learn';render();}
- else if(t.id==='exportProgress'){exportProgress();}
-   
+ 
+else if(t.id==='exportProgress'){exportProgress();}
+
 else if(t.id==='importProgress'){
-  document.getElementById('importProgressFile').click();
-}
-else if(t.id==='importProgressFile'){
-  return;
+  document.getElementById('importProgressFile')?.click();
 }
 
- else if(t.id==='reset'){if(confirm('Effacer uniquement la progression de cette version de Deutsch A2+ ?')){state=emptyState();save();render();}}
+else if(t.id==='reset'){
+  if(confirm('Effacer uniquement la progression de cette version de Deutsch A2+ ?')){
+    state=emptyState();
+    save();
+    render();
+  }
+}
+
 });
+
+document.addEventListener('change', async e => {
+  if(e.target.id !== 'importProgressFile') return;
+
+  const file = e.target.files?.[0];
+  if(file) await importProgress(file);
+
+  e.target.value = '';
+});
+
 document.addEventListener('input',e=>{if(e.target.id==='typed'){selected=e.target.value;document.getElementById('check').disabled=!selected.trim();}});
 async function loadVocabulary(){
  try{
