@@ -35,6 +35,68 @@ function exportProgress(){
     alert('Impossible d’exporter la progression.');
   }
 }
+
+async function importProgress(file) {
+  if (!file) return;
+
+  try {
+    const text = await file.text();
+    const backup = JSON.parse(text);
+
+    if (
+      backup.format !== 'deutsch-lernen-backup' ||
+      backup.version !== 1 ||
+      !backup.data ||
+      typeof backup.data !== 'object' ||
+      Array.isArray(backup.data) ||
+      !Number.isSafeInteger(backup.data.done) ||
+      backup.data.done < 0 ||
+      !Number.isSafeInteger(backup.data.correct) ||
+      backup.data.correct < 0 ||
+      backup.data.correct > backup.data.done ||
+      !Array.isArray(backup.data.sessions) ||
+      !backup.data.vocabulary ||
+      typeof backup.data.vocabulary !== 'object' ||
+      Array.isArray(backup.data.vocabulary) ||
+      !Object.values(backup.data.vocabulary).every(r =>
+        r && typeof r === 'object' &&
+        typeof r.seen === 'boolean' &&
+        Number.isSafeInteger(r.attempts) &&
+        Number.isSafeInteger(r.correct) &&
+        typeof r.due === 'string'
+      )
+    ) {
+      alert('Fichier de sauvegarde invalide ou incompatible.');
+      return;
+    }
+
+    const confirmed = confirm(
+      'Attention : cette importation remplacera la progression actuelle.\n\n' +
+      'Sauvegarde d’abord ta progression actuelle si nécessaire.\n\n' +
+      'Veux-tu continuer ?'
+    );
+
+    if (!confirmed) return;
+
+    const restored = {
+      ...emptyState(),
+      ...backup.data,
+      activeVocab: null
+    };
+
+    // Enregistrer avant de modifier l'état en mémoire.
+    localStorage.setItem(KEY, JSON.stringify(restored));
+    state = restored;
+
+    alert('Progression restaurée avec succès !');
+    render();
+
+  } catch (error) {
+    console.error('Erreur importation', error);
+    alert('Importation impossible. Aucune donnée modifiée.');
+  }
+}
+
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const screen=document.getElementById('screen');
 let tab='learn',queue=[],pos=0,selected='',checked=false,score=0,mode='',currentGermanUtterance=null;
