@@ -278,7 +278,7 @@ function render(){
  }else{
   const pct=state.done?Math.round(state.correct/state.done*100):0;
   const seen=vocabulary.filter(w=>record(w.id).seen).length;
-  screen.innerHTML=`<h2>Ma progression</h2><div class="card"><div class="stat">${seen} / ${vocabulary.length||'—'}</div><p class="muted">Mots découverts</p></div><div class="card"><div class="stat">${dueWords().length}</div><p class="muted">Mots à réviser aujourd’hui</p></div><div class="card"><div class="stat">${state.done}</div><p class="muted">Questions répondues</p></div><div class="card"><div class="stat">${pct}%</div><p class="muted">Réponses correctes</p><div class="progress"><div class="fill" style="width:${pct}%"></div></div></div><div class="card"><div class="stat">${state.sessions.length}</div><p class="muted">Sessions terminées</p></div><button class="secondary" id="reset">Réinitialiser les données de cette version</button>`;
+  screen.innerHTML=`<h2>Ma progression</h2><div class="card"><div class="stat">${seen} / ${vocabulary.length||'—'}</div><p class="muted">Mots découverts</p></div><div class="card"><div class="stat">${dueWords().length}</div><p class="muted">Mots à réviser aujourd’hui</p></div><div class="card"><div class="stat">${state.done}</div><p class="muted">Questions répondues</p></div><div class="card"><div class="stat">${pct}%</div><p class="muted">Réponses correctes</p><div class="progress"><div class="fill" style="width:${pct}%"></div></div></div><div class="card"><div class="stat">${state.sessions.length}</div><p class="muted">Sessions terminées</p></div><button class="secondary" id="exportProgress">💾 Exporter ma progression</button><button class="secondary" id="reset">Réinitialiser les données de cette version</button>`;
  }
 }
 function start(qs,m){queue=qs;pos=0;score=0;mode=m;showQuestion();}
@@ -323,6 +323,7 @@ document.addEventListener('click',e=>{
   else if(checked){pos++;showQuestion();}else check();
  }
  else if(t.id==='back'){tab='learn';render();}
+ else if(t.id==='exportProgress'){exportProgress();}
  else if(t.id==='reset'){if(confirm('Effacer uniquement la progression de cette version de Deutsch A2+ ?')){state=emptyState();save();render();}}
 });
 document.addEventListener('input',e=>{if(e.target.id==='typed'){selected=e.target.value;document.getElementById('check').disabled=!selected.trim();}});
