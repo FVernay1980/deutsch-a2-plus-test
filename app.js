@@ -6,6 +6,35 @@ const emptyState=()=>({done:0,correct:0,mistakes:{},sessions:[],vocabulary:{},ac
 let state;try{state={...emptyState(),...(JSON.parse(localStorage.getItem(KEY))||{})};}catch{state=emptyState();}
 if(!state.vocabulary||typeof state.vocabulary!=='object')state.vocabulary={};
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){console.warn('Sauvegarde impossible',e);}};
+
+function exportProgress(){
+  try {
+    const backup = {
+      format: 'deutsch-lernen-backup',
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      data: state
+    };
+
+    const blob = new Blob(
+      [JSON.stringify(backup, null, 2)],
+      {type: 'application/json'}
+    );
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `deutsch-lernen-${today()}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  } catch (error) {
+    console.error('Erreur exportation', error);
+    alert('Impossible d’exporter la progression.');
+  }
+}
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const screen=document.getElementById('screen');
 let tab='learn',queue=[],pos=0,selected='',checked=false,score=0,mode='',currentGermanUtterance=null;
