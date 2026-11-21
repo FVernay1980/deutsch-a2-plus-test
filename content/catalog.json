@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "language": "fr",
+  "targetLanguage": "de",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "modules": {
+    "vocabulary": [],
+    "grammar": [
+      {
+        "id": "GRAM-A2-001",
+        "level": "A2",
+        "order": 1,
+        "title": "L'accusatif",
+        "file": "grammar/a2/accusatif.json",
+        "version": "1.0.0",
+        "status": "draft"
+      }
+    ],
+    "translation": [],
+    "listening": [],
+    "speaking": []
+  }
+}
