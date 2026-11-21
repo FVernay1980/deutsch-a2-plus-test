@@ -1,0 +1,300 @@
+
+{
+  "schemaVersion": 1,
+  "id": "GRAM-A2-001",
+  "version": "1.0.0",
+  "level": "A2",
+  "order": 1,
+  "title": "L'accusatif",
+  "titleDe": "Der Akkusativ",
+  "language": "fr",
+  "estimatedMinutes": 15,
+  "objectives": [
+    "Identifier le complément d'objet direct.",
+    "Utiliser correctement les articles à l'accusatif.",
+    "Reconnaître les prépositions exigeant l'accusatif.",
+    "Construire des phrases simples à l'accusatif."
+  ],
+  "prerequisites": [
+    "Le nominatif",
+    "Le genre des noms",
+    "Les articles définis et indéfinis"
+  ],
+  "concepts": [
+    {
+      "id": "GRAM-A2-001-C01",
+      "title": "Le complément d'objet direct"
+    },
+    {
+      "id": "GRAM-A2-001-C02",
+      "title": "Les articles à l'accusatif"
+    },
+    {
+      "id": "GRAM-A2-001-C03",
+      "title": "Les prépositions avec l'accusatif"
+    }
+  ],
+  "sections": [
+    {
+      "id": "S01",
+      "type": "text",
+      "title": "Quand utiliser l'accusatif ?",
+      "text": "L'accusatif est l'un des quatre cas grammaticaux allemands. Il est notamment utilisé pour désigner le complément d'objet direct d'un verbe. Pour identifier ce complément, on peut poser la question Wen? (Qui ?) ou Was? (Quoi ?)."
+    },
+    {
+      "id": "S02",
+      "type": "examples",
+      "title": "Exemples",
+      "items": [
+        {
+          "de": "Ich sehe den Hund.",
+          "fr": "Je vois le chien.",
+          "explanation": "Den Hund est le complément d'objet direct du verbe sehen."
+        },
+        {
+          "de": "Sie kauft eine Tasche.",
+          "fr": "Elle achète un sac.",
+          "explanation": "Eine Tasche est le complément d'objet direct du verbe kaufen."
+        },
+        {
+          "de": "Er liest ein Buch.",
+          "fr": "Il lit un livre.",
+          "explanation": "Ein Buch est le complément d'objet direct du verbe lesen."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "type": "table",
+      "title": "Les articles définis",
+      "headers": [
+        "Genre",
+        "Nominatif",
+        "Accusatif"
+      ],
+      "rows": [
+        ["Masculin", "der", "den"],
+        ["Féminin", "die", "die"],
+        ["Neutre", "das", "das"],
+        ["Pluriel", "die", "die"]
+      ]
+    },
+    {
+      "id": "S04",
+      "type": "table",
+      "title": "Les articles indéfinis",
+      "headers": [
+        "Genre",
+        "Nominatif",
+        "Accusatif"
+      ],
+      "rows": [
+        ["Masculin", "ein", "einen"],
+        ["Féminin", "eine", "eine"],
+        ["Neutre", "ein", "ein"],
+        ["Pluriel", "—", "—"]
+      ]
+    },
+    {
+      "id": "S05",
+      "type": "note",
+      "title": "Règle essentielle",
+      "text": "Pour les articles définis et indéfinis, seul le masculin change entre le nominatif et l'accusatif : der devient den et ein devient einen. Les articles négatifs et possessifs suivent également ce modèle : kein devient keinen, mein devient meinen."
+    },
+    {
+      "id": "S06",
+      "type": "table",
+      "title": "Les articles négatifs",
+      "headers": [
+        "Genre",
+        "Nominatif",
+        "Accusatif"
+      ],
+      "rows": [
+        ["Masculin", "kein", "keinen"],
+        ["Féminin", "keine", "keine"],
+        ["Neutre", "kein", "kein"],
+        ["Pluriel", "keine", "keine"]
+      ]
+    },
+    {
+      "id": "S07",
+      "type": "table",
+      "title": "Les prépositions exigeant l'accusatif",
+      "headers": [
+        "Préposition",
+        "Signification",
+        "Exemple"
+      ],
+      "rows": [
+        ["durch", "à travers", "durch den Park"],
+        ["für", "pour", "für meinen Bruder"],
+        ["gegen", "contre", "gegen die Wand"],
+        ["ohne", "sans", "ohne einen Computer"],
+        ["um", "autour de", "um das Haus"]
+      ]
+    },
+    {
+      "id": "S08",
+      "type": "examples",
+      "title": "Exemples avec des prépositions",
+      "items": [
+        {
+          "de": "Wir gehen durch den Park.",
+          "fr": "Nous traversons le parc.",
+          "explanation": "Durch exige l'accusatif."
+        },
+        {
+          "de": "Das Geschenk ist für meinen Vater.",
+          "fr": "Le cadeau est pour mon père.",
+          "explanation": "Für exige l'accusatif."
+        },
+        {
+          "de": "Ich trinke Kaffee ohne Zucker.",
+          "fr": "Je bois du café sans sucre.",
+          "explanation": "Ohne exige l'accusatif, même lorsque le nom est employé sans article."
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "type": "note",
+      "title": "Attention aux exceptions",
+      "text": "Tous les compléments de verbes ne sont pas à l'accusatif. Certains verbes, comme helfen, danken et folgen, exigent le datif. Certains noms masculins changent également de terminaison à l'accusatif, par exemple der Student devient den Studenten. Ces règles feront l'objet de leçons spécifiques."
+    },
+    {
+      "id": "S10",
+      "type": "summary",
+      "title": "À retenir",
+      "items": [
+        "L'accusatif est notamment utilisé pour le complément d'objet direct.",
+        "Der devient den.",
+        "Ein devient einen.",
+        "Kein devient keinen.",
+        "Durch, für, gegen, ohne et um exigent l'accusatif."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "GRAM-A2-001-E01",
+      "conceptIds": ["GRAM-A2-001-C01"],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Quel est le complément d'objet direct ?",
+      "sentence": "Ich sehe den Hund.",
+      "options": ["Ich", "sehe", "den Hund"],
+      "acceptedAnswers": ["den Hund"],
+      "explanation": "Le chien est ce que je vois. Den Hund est donc le complément d'objet direct."
+    },
+    {
+      "id": "GRAM-A2-001-E02",
+      "conceptIds": ["GRAM-A2-001-C02"],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choisis le bon article défini.",
+      "sentence": "Ich sehe ___ Hund.",
+      "options": ["der", "den", "dem"],
+      "acceptedAnswers": ["den"],
+      "explanation": "Hund est masculin. À l'accusatif, der devient den."
+    },
+    {
+      "id": "GRAM-A2-001-E03",
+      "conceptIds": ["GRAM-A2-001-C02"],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choisis le bon article indéfini.",
+      "sentence": "Er kauft ___ Computer.",
+      "options": ["ein", "eine", "einen"],
+      "acceptedAnswers": ["einen"],
+      "explanation": "Computer est masculin. Ein devient einen à l'accusatif."
+    },
+    {
+      "id": "GRAM-A2-001-E04",
+      "conceptIds": ["GRAM-A2-001-C02"],
+      "type": "fill",
+      "difficulty": 2,
+      "prompt": "Complète avec l'article défini.",
+      "sentence": "Sie liest ___ Buch.",
+      "acceptedAnswers": ["das"],
+      "explanation": "Buch est neutre. Das ne change pas à l'accusatif."
+    },
+    {
+      "id": "GRAM-A2-001-E05",
+      "conceptIds": ["GRAM-A2-001-C02"],
+      "type": "fill",
+      "difficulty": 2,
+      "prompt": "Complète avec l'article indéfini.",
+      "sentence": "Ich brauche ___ Tasche.",
+      "acceptedAnswers": ["eine"],
+      "explanation": "Tasche est féminin. Eine ne change pas à l'accusatif."
+    },
+    {
+      "id": "GRAM-A2-001-E06",
+      "conceptIds": ["GRAM-A2-001-C02"],
+      "type": "fill",
+      "difficulty": 2,
+      "prompt": "Complète avec l'article négatif.",
+      "sentence": "Ich habe ___ Computer.",
+      "acceptedAnswers": ["keinen"],
+      "explanation": "Computer est masculin. Kein devient keinen à l'accusatif."
+    },
+    {
+      "id": "GRAM-A2-001-E07",
+      "conceptIds": ["GRAM-A2-001-C02", "GRAM-A2-001-C03"],
+      "type": "fill",
+      "difficulty": 2,
+      "prompt": "Complète avec l'article défini.",
+      "sentence": "Wir gehen durch ___ Park.",
+      "acceptedAnswers": ["den"],
+      "explanation": "Durch exige l'accusatif. Park est masculin."
+    },
+    {
+      "id": "GRAM-A2-001-E08",
+      "conceptIds": ["GRAM-A2-001-C02", "GRAM-A2-001-C03"],
+      "type": "fill",
+      "difficulty": 2,
+      "prompt": "Complète avec le possessif mein.",
+      "sentence": "Das Geschenk ist für ___ Bruder.",
+      "acceptedAnswers": ["meinen"],
+      "explanation": "Für exige l'accusatif. Mein devient meinen devant un nom masculin."
+    },
+    {
+      "id": "GRAM-A2-001-E09",
+      "conceptIds": ["GRAM-A2-001-C01", "GRAM-A2-001-C02"],
+      "type": "writing",
+      "difficulty": 3,
+      "prompt": "Écris en allemand : Je vois le chien.",
+      "acceptedAnswers": [
+        "Ich sehe den Hund."
+      ],
+      "explanation": "Hund est masculin et complément d'objet direct. Il faut utiliser den."
+    },
+    {
+      "id": "GRAM-A2-001-E10",
+      "conceptIds": ["GRAM-A2-001-C02", "GRAM-A2-001-C03"],
+      "type": "writing",
+      "difficulty": 3,
+      "prompt": "Écris en allemand : Le cadeau est pour mon père.",
+      "acceptedAnswers": [
+        "Das Geschenk ist für meinen Vater.",
+        "Für meinen Vater ist das Geschenk."
+      ],
+      "explanation": "Für exige l'accusatif. Mein Vater devient meinen Vater."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Grimm Grammar",
+      "publisher": "University of Texas at Austin - COERLL",
+      "url": "https://coerll.utexas.edu/gg/pr/cas_03.html",
+      "usage": "pedagogical-reference"
+    },
+    {
+      "name": "ZUM Deutsch Lernen",
+      "publisher": "Zentrale für Unterrichtsmedien im Internet",
+      "url": "https://deutsch-lernen.zum.de/",
+      "usage": "pedagogical-reference"
+    }
+  ]
+}
