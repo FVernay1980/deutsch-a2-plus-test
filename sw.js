@@ -1,5 +1,5 @@
 // Deutsch A2+ — service worker pour le dépôt de TEST uniquement.
-const CACHE = 'deutsch-a2-plus-test-v023-2';
+const CACHE = 'deutsch-a2-plus-test-v024';
 const CACHE_PREFIX = 'deutsch-a2-plus-test-';
 const BASE = new URL('./', self.location.href);
 const ASSETS = [
@@ -7,11 +7,14 @@ const ASSETS = [
   './index.html',
   './style.css',
   './app.js',
+  './h5p-player.js',
   './manifest.webmanifest',
   './icon.png',
   './icon-512.png',
   './data/catalog.json',
-  './data/vocabulary.json'
+  './data/vocabulary.json',
+  './content/lessons/zum-31238/lesson.json',
+  './content/lessons/zum-31238/media/file-661d36cc5eb78.png'
 ];
 
 self.addEventListener('install', event => {
