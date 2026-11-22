@@ -201,3 +201,84 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+/* H5P — sélection de mots dans un texte */
+
+.h5p-word {
+  display: inline;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 3px 4px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.h5p-word[aria-pressed="true"] {
+  background: rgba(21, 94, 73, 0.15);
+  border-bottom-color: #155e49;
+}
+
+.h5p-word:focus-visible {
+  outline: 2px solid #155e49;
+  outline-offset: 2px;
+}
+
+.h5p-word:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+/* H5P — terminaisons à compléter */
+
+input.h5p-blank-input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 48px;
+  min-width: 0;
+  max-width: 48px;
+  height: 34px;
+  margin: 2px 1px;
+  padding: 3px 5px;
+  border: 1px solid #9ca3af;
+  border-bottom: 2px solid #155e49;
+  border-radius: 5px;
+  background: #fff;
+  color: #1f2937;
+  font: inherit;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+input.h5p-blank-input:focus {
+  outline: 2px solid #155e49;
+  outline-offset: 1px;
+}
+
+input.h5p-blank-input:disabled {
+  opacity: 1;
+  background: #f3f4f6;
+}
+
+/* H5P — typographie plus douce */
+
+.sentence {
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+.h5p-word {
+  font-weight: 400;
+}
+
+.h5p-blank-input,
+.h5p-blank-choice {
+  font-weight: 400;
+}

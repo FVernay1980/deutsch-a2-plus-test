@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "zum-31238",
+  "title": "Adjektiv + unbestimmter Artikel (Nominativ)",
+  "level": null,
+  "domain": "Unclassified",
+  "topic": "Unclassified",
+  "status": "draft",
+  "source": {
+    "provider": "ZUM Deutsch Lernen",
+    "h5pId": 31238,
+    "title": "Adjektiv + unbestimmter Artikel (Nominativ)",
+    "language": "und",
+    "license": "CC BY-SA",
+    "authors": [
+      {
+        "name": "Karl Kirst",
+        "role": "Author"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "resource",
+      "resourceId": "zum-31238-res-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "zum-31238-ex-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "zum-31238-ex-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "zum-31238-ex-4"
+    }
+  ],
+  "exercises": {
+    "zum-31238-ex-2": {
+      "instructions": "Markiere die Adjektive im Nominativ!",
+      "text": "Heute ist ein schöner Tag. Ich sehe am Himmel nur wenige weiße Wolken.\n\nEin kleiner Spaziergang ist jetzt eine gute Idee.\n\nIm Supermarkt sehe ich viel frisches Obst: saftige Äpfel, viele rote Kirschen, aber keine gelben Bananen.",
+      "answers": [
+        {
+          "text": "schöner",
+          "start": 14,
+          "end": 21
+        },
+        {
+          "text": "weiße",
+          "start": 57,
+          "end": 62
+        },
+        {
+          "text": "kleiner",
+          "start": 76,
+          "end": 83
+        },
+        {
+          "text": "gute",
+          "start": 111,
+          "end": 115
+        },
+        {
+          "text": "frisches",
+          "start": 151,
+          "end": 159
+        },
+        {
+          "text": "saftige",
+          "start": 166,
+          "end": 173
+        },
+        {
+          "text": "rote",
+          "start": 187,
+          "end": 191
+        },
+        {
+          "text": "gelben",
+          "start": 213,
+          "end": 219
+        }
+      ],
+      "type": "select-words",
+      "title": "Markiere alle Adjektive"
+    },
+    "zum-31238-ex-3": {
+      "instructions": "Ordne die Endungen richtig zu!",
+      "text": "Das ist mein neu___ Buch. Und das hier ist ein neu___ Stift.\n\nAuch ein warm___ Regen ist für mich ein schlecht___ Wetter.\n\nDein neu___ Hemd und deine neu___ Hose stehen dir gut!\nDanke. Dein neu___ Hut sieht auch toll aus.",
+      "answers": [
+        "es",
+        "er",
+        "er",
+        "es",
+        "es",
+        "e",
+        "er"
+      ],
+      "distractors": [
+        "er",
+        "es",
+        "e",
+        "e"
+      ],
+      "choices": [
+        "es",
+        "er",
+        "er",
+        "es",
+        "es",
+        "e",
+        "er",
+        "er",
+        "es",
+        "e",
+        "e"
+      ],
+      "type": "fill-blanks-choice",
+      "title": "Zuordnen"
+    },
+    "zum-31238-ex-4": {
+      "instructions": "Ergänze die fehlenden Endungen!",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Ich habe wieder ein neu___ Wort gelernt. Das ist ein gut___ Gefühl.\n\nAber eine neu___ Sprache, das sind viele neu___ Wörter.\n\nNach dem Lernen ist eine klein___ Pause eine gut___ Idee.\n\nUnd ein klein___ Eis und dazu ein schwarz___ Kaffee:\n\nDas wäre jetzt gut!\n\nHier sind heute viele nett___ Leute, aber keine neu___ Leute.",
+          "answers": [
+            "es",
+            "es",
+            "e",
+            "e",
+            "e",
+            "e",
+            "es",
+            "er",
+            "e",
+            "en"
+          ]
+        }
+      ],
+      "type": "fill-blanks",
+      "title": "Ergänzen"
+    }
+  },
+  "resources": {
+    "zum-31238-res-1": {
+      "type": "image",
+      "path": "media/file-661d36cc5eb78.png",
+      "alt": "Adjektiv + unbestimmter Artikel (Nominativ)",
+      "width": 1887,
+      "height": 813,
+      "license": "U"
+    }
+  }
+}

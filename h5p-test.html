@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+
+  <title>Test H5P — Deutsch lernen</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main class="app">
+    <header>
+      <h1>🇩🇪 Deutsch lernen</h1>
+      <span class="tag">TEST H5P</span>
+    </header>
+
+    <section id="h5p-screen">
+      <p>Chargement de la leçon…</p>
+    </section>
+  </main>
+
+  <script src="./h5p-player.js"></script>
+  <script>
+    H5PPlayer.show(
+      'zum-31238',
+      document.getElementById('h5p-screen')
+    ).catch(error => {
+      console.error(error);
+      document.getElementById('h5p-screen').textContent =
+        'Erreur : ' + error.message;
+    });
+  </script>
+</body>
+</html>
+
